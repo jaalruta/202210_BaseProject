@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
 .img_size {
   height: 15vw;
   object-fit: cover;
+}
+
+.if_font{
+  font-family: 'Indie Flower', cursive;
 }

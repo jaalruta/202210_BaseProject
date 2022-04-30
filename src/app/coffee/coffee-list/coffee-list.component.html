@@ -1,5 +1,5 @@
 <div class="container mt-5">
-  <h4>El aroma mágico</h4>
+  <h4 class='if_font'>El aroma mágico</h4>
   <hr>
   <div class="row">
     <img src="/assets/cafe.jpg" class="img-fluid img_size" alt="Banner cafe">
@@ -17,7 +17,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let cafe of cafes">
+          <tr *ngFor="let cafe of cafes" >
             <th scope="row">{{cafe.id}}</th>
             <td>{{cafe.nombre}}</td>
             <td>{{cafe.tipo}}</td>

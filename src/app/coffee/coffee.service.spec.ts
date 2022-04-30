@@ -2,11 +2,12 @@
 
 import { TestBed, async, inject } from '@angular/core/testing';
 import { CoffeeService } from './coffee.service';
-
+import { HttpClientModule } from '@angular/common/http';
 describe('Service: Coffee', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [CoffeeService]
+      providers: [CoffeeService],
+      imports: [HttpClientModule]
     });
   });
 
